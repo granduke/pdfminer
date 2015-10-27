@@ -21,6 +21,9 @@ PDF parser that can be used for other purposes instead of text analysis.''',
     packages=[
     'pdfminer',
     ],
+    install_requires=[
+    'pycrypto',
+    ],
     package_data={
     'pdfminer': ['cmap/*.pickle.gz']
     },
